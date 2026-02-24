@@ -23,14 +23,11 @@ PyGObject>=3.44.0        # needs system GStreamer + GI dev packages
 # dobot_lib           # local module or vendor package; install from your source
 
 
-
-
-
 # Common packages
 pip install numpy "pyttsx3>=2.90" "vosk>=0.3.45" "pyaudio>=0.2.14" "PyGObject>=3.44.0"
 
-# OpenCV (choose ONE, depending on your environment)
-# x86_64 desktop with display:
-pip install "opencv-python>=4.8.0"
-# Headless servers or many ARM/aarch64 setups (no GUI):
-pip install "opencv-python-headless>=4.8.0"
+# # OpenCV (choose ONE, depending on your environment)
+# # x86_64 desktop with display:
+# pip install "opencv-python>=4.8.0"
+# # Headless servers or many ARM/aarch64 setups (no GUI):
+# pip install "opencv-python-headless>=4.8.0"

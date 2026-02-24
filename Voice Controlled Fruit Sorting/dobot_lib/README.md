@@ -31,7 +31,7 @@ To understand how to use the Dobot more efficiently we have to look into what ty
 
 We will import the DobotDLLType file in python with the local name dType, as they have done in the DobotControl file. All of the DLL functions will be accessed with the help of this module name. The reason this local name is used to access the functions is to keep the guide in line with the DobotControl file to make it easier to understand.
 
-To have access to the library containing the functions, we have to load it into an object in out code. The function ```dType.load()``` will load the platform specific library and return it into an object which we will call *api*.
+To have access to the library containing the functions, we have to load it into an object in our code. The function ```dType.load()``` will load the platform specific library and return it into an object which we will call *api*.
 
 **Syntax**:
 ```python
