@@ -341,7 +341,7 @@ class ImageToSmoothPath:
 
 if __name__ == "__main__":
     converter = ImageToSmoothPath(
-        image_path="3d-printing-img.png",
+        image_path="Line-face-image.jpg",
         output_width=100.0,
         output_height=100.0, 
 

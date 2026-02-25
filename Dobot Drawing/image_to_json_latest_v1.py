@@ -122,6 +122,7 @@ class ImageToSmoothPath:
     def pixels_to_mm(self, paths):
         mm_paths = []
         if self.img_width == 0: return []
+        # Preserves aspect ratio while scaling image within image width and height and centers it
         scale = min(self.output_width / self.img_width, self.output_height / self.img_height)
         off_x = (self.output_width - (self.img_width * scale)) / 2
         off_y = (self.output_height - (self.img_height * scale)) / 2
@@ -139,7 +140,7 @@ class ImageToSmoothPath:
     # =========================================================
     def stitch_paths(self, paths):
         if not paths: return []
-        pool = [list(p) for p in paths]
+        pool = [list(p) for p in paths]  # Modifiable copy
         stitched = []
         
         while pool:
@@ -286,4 +287,4 @@ if __name__ == "__main__":
         sample_density_mm=0.5,    # High res
         min_path_len_mm=2.0       # Keep small details
     )
-    # converter.run("output_latest_smooth")
+    converter.run("output_latest_smooth")
