@@ -1,0 +1,8458 @@
+{
+  "commands": [
+    {
+      "action": "MOVE",
+      "x": 16.62,
+      "y": 30.88,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 16.62,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 16.11,
+      "y": 30.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.61,
+      "y": 30.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.15,
+      "y": 31.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 14.71,
+      "y": 31.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 14.33,
+      "y": 31.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 14.03,
+      "y": 31.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.81,
+      "y": 32.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.6,
+      "y": 32.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.45,
+      "y": 32.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.4,
+      "y": 33.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 33.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 34.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 34.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 34.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 35.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 35.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 36.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 36.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 36.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 37.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 37.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 37.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 37.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 38.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.34,
+      "y": 38.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 38.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.28,
+      "y": 39.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.07,
+      "y": 39.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.86,
+      "y": 40.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 10.65,
+      "y": 40.4,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 10.65,
+      "y": 40.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 11.06,
+      "y": 40.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 11.47,
+      "y": 41.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 11.93,
+      "y": 41.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.45,
+      "y": 41.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.91,
+      "y": 41.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.12,
+      "y": 42.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.91,
+      "y": 42.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 12.86,
+      "y": 44.67,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 12.86,
+      "y": 44.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.07,
+      "y": 45.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.27,
+      "y": 45.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 46.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 46.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 46.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 47.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 47.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 47.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 48.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 48.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 48.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 49.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 49.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 49.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 49.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 50.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 50.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 50.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 51.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 51.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 51.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 52.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 52.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 53.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 53.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 53.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 54.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 54.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 55.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 55.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.41,
+      "y": 55.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 56.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 56.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.34,
+      "y": 56.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.35,
+      "y": 57.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 57.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 57.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 58.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 58.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 58.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 59.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 59.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 59.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 60.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.36,
+      "y": 60.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 60.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 61.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 61.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 62.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 62.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 62.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.39,
+      "y": 62.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 63.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 63.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.37,
+      "y": 63.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.38,
+      "y": 64.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.4,
+      "y": 64.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 25.47,
+      "y": 65.76,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 25.47,
+      "y": 65.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.04,
+      "y": 65.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.61,
+      "y": 66.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.18,
+      "y": 66.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.76,
+      "y": 66.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.34,
+      "y": 66.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.9,
+      "y": 67.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.43,
+      "y": 67.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.94,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.47,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.99,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.53,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.06,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.6,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.13,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.67,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.2,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 17.72,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 17.24,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 16.74,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 16.24,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.74,
+      "y": 67.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.25,
+      "y": 67.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 14.79,
+      "y": 67.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 14.35,
+      "y": 66.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.92,
+      "y": 66.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.48,
+      "y": 66.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 13.05,
+      "y": 66.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.64,
+      "y": 67.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 12.26,
+      "y": 67.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 11.91,
+      "y": 67.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 11.53,
+      "y": 68.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 25.8,
+      "y": 65.76,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 25.8,
+      "y": 65.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.24,
+      "y": 65.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.67,
+      "y": 66.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.11,
+      "y": 66.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.54,
+      "y": 66.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.98,
+      "y": 66.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.41,
+      "y": 67.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.81,
+      "y": 67.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.91,
+      "y": 67.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.41,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.9,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.39,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.87,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.36,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.85,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.34,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.82,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.3,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.79,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.28,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.78,
+      "y": 67.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.29,
+      "y": 67.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.78,
+      "y": 67.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 36.26,
+      "y": 67.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 36.72,
+      "y": 67.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.16,
+      "y": 66.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.58,
+      "y": 66.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.97,
+      "y": 66.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.34,
+      "y": 66.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.7,
+      "y": 67.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.07,
+      "y": 67.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.45,
+      "y": 67.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.83,
+      "y": 68.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 40.2,
+      "y": 68.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 33.15,
+      "y": 61.64,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 33.15,
+      "y": 61.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.67,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.14,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.61,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.1,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.59,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.07,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.56,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.05,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.56,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.1,
+      "y": 61.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.68,
+      "y": 62.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.24,
+      "y": 62.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.8,
+      "y": 62.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.37,
+      "y": 62.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.98,
+      "y": 63.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.6,
+      "y": 63.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.23,
+      "y": 63.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.82,
+      "y": 62.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.39,
+      "y": 62.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.95,
+      "y": 62.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.52,
+      "y": 62.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.08,
+      "y": 61.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.61,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.61,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.35,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.78,
+      "y": 61.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.66,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.07,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.56,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.07,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.14,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.77,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.44,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.31,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.26,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.74,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.22,
+      "y": 61.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.7,
+      "y": 61.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.18,
+      "y": 61.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 25.5,
+      "y": 58.31,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 25.5,
+      "y": 58.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.75,
+      "y": 58.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.71,
+      "y": 58.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.68,
+      "y": 59.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.82,
+      "y": 60.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 28.57,
+      "y": 61.77,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 28.57,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.36,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.14,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.93,
+      "y": 61.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 30.75,
+      "y": 53.19,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 30.75,
+      "y": 53.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.68,
+      "y": 53.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.62,
+      "y": 53.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.57,
+      "y": 54.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.52,
+      "y": 54.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.46,
+      "y": 54.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.4,
+      "y": 55.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.33,
+      "y": 55.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.27,
+      "y": 56.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.21,
+      "y": 56.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.17,
+      "y": 56.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.14,
+      "y": 56.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.14,
+      "y": 57.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.15,
+      "y": 57.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.14,
+      "y": 58.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.15,
+      "y": 58.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.14,
+      "y": 58.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.15,
+      "y": 58.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.15,
+      "y": 59.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.13,
+      "y": 59.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.2,
+      "y": 59.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.1,
+      "y": 59.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.71,
+      "y": 60.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 38.33,
+      "y": 44.86,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 38.33,
+      "y": 44.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.12,
+      "y": 45.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 45.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 46.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 46.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 46.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 47.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 47.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 48.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 48.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 48.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 49.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 49.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 49.68,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 50.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 50.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 50.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 51.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 51.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 51.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 51.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 52.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 52.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 52.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 53.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 53.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 53.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 54.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 54.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 54.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.89,
+      "y": 55.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 55.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.89,
+      "y": 55.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 56.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 56.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 56.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 57.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.88,
+      "y": 57.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 57.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 58.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 59.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.88,
+      "y": 59.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 59.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.89,
+      "y": 60.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 60.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 60.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 61.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 61.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 61.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.88,
+      "y": 61.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 62.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.88,
+      "y": 62.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 62.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 63.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 63.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 64.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 41.89,
+      "y": 79.67,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 41.89,
+      "y": 79.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.33,
+      "y": 79.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.38,
+      "y": 80.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.18,
+      "y": 80.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 41.87,
+      "y": 81.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 41.48,
+      "y": 81.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 41.12,
+      "y": 81.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 41.17,
+      "y": 81.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 41.56,
+      "y": 82.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.02,
+      "y": 82.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.42,
+      "y": 81.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 42.77,
+      "y": 81.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.04,
+      "y": 81.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 43.98,
+      "y": 79.92,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 43.98,
+      "y": 79.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 80.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 80.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 80.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 80.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 81.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 81.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.98,
+      "y": 81.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 43.99,
+      "y": 81.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.46,
+      "y": 81.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.65,
+      "y": 81.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.65,
+      "y": 81.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.65,
+      "y": 81.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.71,
+      "y": 80.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 44.68,
+      "y": 80.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.02,
+      "y": 80.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.2,
+      "y": 80.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.54,
+      "y": 80.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.65,
+      "y": 81.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.65,
+      "y": 81.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.65,
+      "y": 81.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.64,
+      "y": 81.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 45.82,
+      "y": 81.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 46.17,
+      "y": 81.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 46.46,
+      "y": 81.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 46.74,
+      "y": 81.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 46.9,
+      "y": 81.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.28,
+      "y": 81.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.63,
+      "y": 81.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.97,
+      "y": 81.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 48.2,
+      "y": 81.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.87,
+      "y": 81.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 48.22,
+      "y": 81.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 48.53,
+      "y": 80.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 48.22,
+      "y": 80.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.82,
+      "y": 80.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 47.56,
+      "y": 80.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 50.42,
+      "y": 80.08,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 50.42,
+      "y": 80.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.42,
+      "y": 80.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.42,
+      "y": 80.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.42,
+      "y": 81.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.41,
+      "y": 81.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.48,
+      "y": 81.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 50.96,
+      "y": 81.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.43,
+      "y": 81.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.21,
+      "y": 81.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.19,
+      "y": 81.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.36,
+      "y": 80.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.8,
+      "y": 80.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.9,
+      "y": 80.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.28,
+      "y": 80.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.37,
+      "y": 81.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.27,
+      "y": 81.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.93,
+      "y": 81.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 51.57,
+      "y": 81.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 52.82,
+      "y": 80.53,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 52.82,
+      "y": 80.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.86,
+      "y": 80.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.84,
+      "y": 81.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.85,
+      "y": 81.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.83,
+      "y": 82.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.8,
+      "y": 82.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.83,
+      "y": 82.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.89,
+      "y": 81.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.23,
+      "y": 81.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.68,
+      "y": 81.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.97,
+      "y": 81.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.01,
+      "y": 81.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.89,
+      "y": 80.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.51,
+      "y": 80.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.47,
+      "y": 80.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.28,
+      "y": 80.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 55.1,
+      "y": 80.58,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 55.1,
+      "y": 80.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.45,
+      "y": 80.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.03,
+      "y": 81.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.58,
+      "y": 80.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.64,
+      "y": 80.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.53,
+      "y": 81.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.67,
+      "y": 81.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.08,
+      "y": 81.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.41,
+      "y": 81.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 57.16,
+      "y": 79.85,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 57.16,
+      "y": 79.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.16,
+      "y": 80.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.13,
+      "y": 80.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 81.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.13,
+      "y": 81.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.82,
+      "y": 81.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.36,
+      "y": 81.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.05,
+      "y": 81.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.98,
+      "y": 81.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.03,
+      "y": 80.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.44,
+      "y": 80.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.48,
+      "y": 80.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 57.78,
+      "y": 80.63,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 57.78,
+      "y": 80.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.78,
+      "y": 80.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.78,
+      "y": 81.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.78,
+      "y": 81.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.8,
+      "y": 81.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 58.87,
+      "y": 80.56,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 58.87,
+      "y": 80.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.69,
+      "y": 80.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.34,
+      "y": 80.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.31,
+      "y": 81.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.58,
+      "y": 81.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.03,
+      "y": 81.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.4,
+      "y": 81.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.47,
+      "y": 81.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.45,
+      "y": 80.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 59.96,
+      "y": 58.2,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 59.96,
+      "y": 58.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.38,
+      "y": 58.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.44,
+      "y": 59.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.42,
+      "y": 59.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 59.62,
+      "y": 58.17,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 59.62,
+      "y": 58.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.63,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.38,
+      "y": 58.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.94,
+      "y": 58.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.86,
+      "y": 58.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.11,
+      "y": 58.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.13,
+      "y": 59.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.18,
+      "y": 59.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 58.5,
+      "y": 58.16,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 58.5,
+      "y": 58.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.25,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.91,
+      "y": 58.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.81,
+      "y": 58.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.84,
+      "y": 59.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.83,
+      "y": 59.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 56.23,
+      "y": 58.16,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 56.23,
+      "y": 58.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.42,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.79,
+      "y": 58.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.04,
+      "y": 58.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.1,
+      "y": 59.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.95,
+      "y": 59.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.63,
+      "y": 59.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.19,
+      "y": 59.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.78,
+      "y": 59.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.58,
+      "y": 59.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.6,
+      "y": 58.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.78,
+      "y": 58.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 55.19,
+      "y": 58.05,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 55.19,
+      "y": 58.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.73,
+      "y": 58.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.48,
+      "y": 58.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.46,
+      "y": 58.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.46,
+      "y": 58.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.45,
+      "y": 59.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.44,
+      "y": 59.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.45,
+      "y": 59.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.48,
+      "y": 59.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 53.81,
+      "y": 57.16,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 53.81,
+      "y": 57.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.37,
+      "y": 57.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.23,
+      "y": 57.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.25,
+      "y": 58.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.29,
+      "y": 59.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.21,
+      "y": 59.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 54.07,
+      "y": 52.63,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 54.07,
+      "y": 52.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.43,
+      "y": 52.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.88,
+      "y": 52.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.48,
+      "y": 52.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.25,
+      "y": 53.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.12,
+      "y": 53.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.1,
+      "y": 54.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.18,
+      "y": 54.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.36,
+      "y": 54.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.67,
+      "y": 55.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.04,
+      "y": 55.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.5,
+      "y": 55.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.0,
+      "y": 55.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.54,
+      "y": 55.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.58,
+      "y": 55.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.58,
+      "y": 54.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.58,
+      "y": 54.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.59,
+      "y": 54.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.58,
+      "y": 54.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.6,
+      "y": 53.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.56,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.77,
+      "y": 53.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.11,
+      "y": 53.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.51,
+      "y": 53.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.76,
+      "y": 54.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.75,
+      "y": 54.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.89,
+      "y": 54.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.27,
+      "y": 55.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.75,
+      "y": 55.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.1,
+      "y": 54.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.9,
+      "y": 54.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.45,
+      "y": 54.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.13,
+      "y": 54.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.66,
+      "y": 54.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.03,
+      "y": 54.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.92,
+      "y": 53.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.52,
+      "y": 53.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.27,
+      "y": 53.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.9,
+      "y": 53.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.74,
+      "y": 53.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 59.27,
+      "y": 53.42,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 59.27,
+      "y": 53.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.92,
+      "y": 53.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.11,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.67,
+      "y": 53.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.78,
+      "y": 54.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.77,
+      "y": 54.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.91,
+      "y": 55.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.86,
+      "y": 55.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.26,
+      "y": 55.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.77,
+      "y": 55.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.7,
+      "y": 54.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.02,
+      "y": 54.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 62.71,
+      "y": 53.4,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 62.71,
+      "y": 53.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.84,
+      "y": 53.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.79,
+      "y": 54.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.81,
+      "y": 54.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.53,
+      "y": 55.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.07,
+      "y": 55.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.95,
+      "y": 54.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.97,
+      "y": 54.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.97,
+      "y": 53.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.65,
+      "y": 53.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.17,
+      "y": 53.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.91,
+      "y": 53.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.83,
+      "y": 54.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.82,
+      "y": 54.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.97,
+      "y": 55.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.41,
+      "y": 55.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 63.53,
+      "y": 53.44,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 63.53,
+      "y": 53.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.26,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.33,
+      "y": 53.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.92,
+      "y": 53.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.12,
+      "y": 53.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.18,
+      "y": 54.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.14,
+      "y": 54.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.3,
+      "y": 55.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.72,
+      "y": 55.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.91,
+      "y": 55.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.29,
+      "y": 56.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.77,
+      "y": 56.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.17,
+      "y": 55.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.33,
+      "y": 55.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.11,
+      "y": 55.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.75,
+      "y": 55.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.38,
+      "y": 55.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.0,
+      "y": 54.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.1,
+      "y": 54.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.89,
+      "y": 54.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.96,
+      "y": 53.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.36,
+      "y": 53.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.83,
+      "y": 53.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.16,
+      "y": 53.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.12,
+      "y": 54.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.05,
+      "y": 54.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.72,
+      "y": 54.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.31,
+      "y": 54.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.09,
+      "y": 55.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.87,
+      "y": 55.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 66.2,
+      "y": 57.25,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 66.2,
+      "y": 57.25,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.19,
+      "y": 57.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.15,
+      "y": 58.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.18,
+      "y": 58.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.24,
+      "y": 59.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.14,
+      "y": 59.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.13,
+      "y": 59.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.65,
+      "y": 59.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.19,
+      "y": 59.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.89,
+      "y": 59.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.77,
+      "y": 59.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.82,
+      "y": 58.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.96,
+      "y": 58.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.26,
+      "y": 58.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 62.51,
+      "y": 58.15,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 62.51,
+      "y": 58.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.28,
+      "y": 58.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.55,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.06,
+      "y": 58.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.1,
+      "y": 59.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.11,
+      "y": 59.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.42,
+      "y": 59.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 68.2,
+      "y": 58.19,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 68.2,
+      "y": 58.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.67,
+      "y": 58.25,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.93,
+      "y": 58.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.01,
+      "y": 58.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.86,
+      "y": 59.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.51,
+      "y": 59.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.03,
+      "y": 59.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.04,
+      "y": 59.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.85,
+      "y": 59.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.77,
+      "y": 58.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.9,
+      "y": 58.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.45,
+      "y": 58.25,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.03,
+      "y": 58.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.06,
+      "y": 58.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.05,
+      "y": 58.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.05,
+      "y": 59.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.05,
+      "y": 59.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.05,
+      "y": 59.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.04,
+      "y": 59.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.13,
+      "y": 59.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.51,
+      "y": 60.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.84,
+      "y": 60.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.22,
+      "y": 60.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.74,
+      "y": 60.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.16,
+      "y": 60.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.15,
+      "y": 60.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.72,
+      "y": 59.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.6,
+      "y": 59.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.31,
+      "y": 59.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.04,
+      "y": 60.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.18,
+      "y": 60.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.66,
+      "y": 60.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 73.81,
+      "y": 57.22,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 73.81,
+      "y": 57.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.8,
+      "y": 57.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.8,
+      "y": 58.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.8,
+      "y": 58.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.8,
+      "y": 59.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.82,
+      "y": 59.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.08,
+      "y": 59.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.92,
+      "y": 59.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.32,
+      "y": 59.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.95,
+      "y": 59.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.96,
+      "y": 59.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.9,
+      "y": 58.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.88,
+      "y": 58.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.51,
+      "y": 58.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.43,
+      "y": 58.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.08,
+      "y": 58.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.55,
+      "y": 58.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.17,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.93,
+      "y": 58.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.78,
+      "y": 58.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.78,
+      "y": 58.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.78,
+      "y": 59.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.78,
+      "y": 59.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.79,
+      "y": 59.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.98,
+      "y": 59.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.42,
+      "y": 59.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.81,
+      "y": 59.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.85,
+      "y": 59.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.85,
+      "y": 59.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.22,
+      "y": 59.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.41,
+      "y": 59.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.23,
+      "y": 59.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.33,
+      "y": 58.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 76.31,
+      "y": 57.21,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 76.31,
+      "y": 57.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.88,
+      "y": 57.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.76,
+      "y": 57.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.91,
+      "y": 58.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.26,
+      "y": 58.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.71,
+      "y": 58.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.93,
+      "y": 58.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.89,
+      "y": 59.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.91,
+      "y": 59.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.28,
+      "y": 59.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.71,
+      "y": 59.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.73,
+      "y": 59.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 59.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 59.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.71,
+      "y": 58.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.71,
+      "y": 58.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 58.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 58.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 57.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 57.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.72,
+      "y": 57.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.71,
+      "y": 57.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 79.1,
+      "y": 58.16,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 79.1,
+      "y": 58.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.19,
+      "y": 58.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.81,
+      "y": 58.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.6,
+      "y": 58.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.57,
+      "y": 59.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.71,
+      "y": 59.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.0,
+      "y": 59.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.39,
+      "y": 59.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.87,
+      "y": 59.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 80.37,
+      "y": 59.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 80.81,
+      "y": 59.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 79.72,
+      "y": 58.36,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 79.72,
+      "y": 58.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.85,
+      "y": 58.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.27,
+      "y": 58.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.99,
+      "y": 58.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.72,
+      "y": 58.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 80.05,
+      "y": 53.43,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 80.05,
+      "y": 53.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.7,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.34,
+      "y": 53.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.15,
+      "y": 54.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.14,
+      "y": 54.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.31,
+      "y": 54.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.66,
+      "y": 55.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 80.22,
+      "y": 55.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 77.43,
+      "y": 53.43,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 77.43,
+      "y": 53.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.53,
+      "y": 53.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.96,
+      "y": 53.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.71,
+      "y": 53.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.96,
+      "y": 54.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.42,
+      "y": 54.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.69,
+      "y": 54.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.42,
+      "y": 55.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.11,
+      "y": 55.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.75,
+      "y": 55.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 75.48,
+      "y": 54.96,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 75.48,
+      "y": 54.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.35,
+      "y": 55.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.21,
+      "y": 55.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.95,
+      "y": 56.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 74.75,
+      "y": 53.54,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 74.75,
+      "y": 53.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.91,
+      "y": 53.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.02,
+      "y": 54.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.16,
+      "y": 54.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.42,
+      "y": 54.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.73,
+      "y": 54.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.85,
+      "y": 54.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.96,
+      "y": 53.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.06,
+      "y": 53.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 73.24,
+      "y": 53.48,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 73.24,
+      "y": 53.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.72,
+      "y": 53.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.98,
+      "y": 53.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.05,
+      "y": 54.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.0,
+      "y": 55.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 72.72,
+      "y": 52.56,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 72.72,
+      "y": 52.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.71,
+      "y": 52.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.72,
+      "y": 52.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.73,
+      "y": 53.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.73,
+      "y": 53.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.73,
+      "y": 53.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.72,
+      "y": 54.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.71,
+      "y": 54.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.71,
+      "y": 54.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.72,
+      "y": 54.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.76,
+      "y": 55.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 71.37,
+      "y": 53.42,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 71.37,
+      "y": 53.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.06,
+      "y": 53.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.48,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.87,
+      "y": 53.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.99,
+      "y": 54.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.96,
+      "y": 54.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.79,
+      "y": 54.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.44,
+      "y": 55.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.19,
+      "y": 55.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.83,
+      "y": 54.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 70.58,
+      "y": 53.49,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 70.58,
+      "y": 53.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.57,
+      "y": 53.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.57,
+      "y": 54.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.56,
+      "y": 55.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.56,
+      "y": 55.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.53,
+      "y": 56.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 68.27,
+      "y": 53.43,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 68.27,
+      "y": 53.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.94,
+      "y": 53.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.05,
+      "y": 53.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.6,
+      "y": 53.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.78,
+      "y": 53.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.76,
+      "y": 54.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.8,
+      "y": 54.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.98,
+      "y": 55.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.64,
+      "y": 55.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.06,
+      "y": 55.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.69,
+      "y": 54.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.69,
+      "y": 54.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.02,
+      "y": 54.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.54,
+      "y": 54.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 66.77,
+      "y": 45.59,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 66.77,
+      "y": 45.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.52,
+      "y": 45.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.23,
+      "y": 45.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.11,
+      "y": 46.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.4,
+      "y": 46.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.84,
+      "y": 46.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.98,
+      "y": 46.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.06,
+      "y": 46.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.08,
+      "y": 45.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.41,
+      "y": 45.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.65,
+      "y": 46.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.58,
+      "y": 46.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.54,
+      "y": 46.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.05,
+      "y": 47.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.42,
+      "y": 46.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.49,
+      "y": 46.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.52,
+      "y": 45.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.22,
+      "y": 45.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.0,
+      "y": 45.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 71.29,
+      "y": 45.78,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 71.29,
+      "y": 45.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.16,
+      "y": 46.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.14,
+      "y": 46.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.88,
+      "y": 46.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.47,
+      "y": 46.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.25,
+      "y": 46.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.4,
+      "y": 46.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.17,
+      "y": 46.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.6,
+      "y": 46.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.18,
+      "y": 46.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.72,
+      "y": 46.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 73.39,
+      "y": 44.99,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 73.39,
+      "y": 44.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.84,
+      "y": 45.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.85,
+      "y": 45.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.8,
+      "y": 45.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.75,
+      "y": 45.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.71,
+      "y": 46.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.67,
+      "y": 46.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.62,
+      "y": 46.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.58,
+      "y": 46.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.55,
+      "y": 46.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 73.39,
+      "y": 47.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.87,
+      "y": 47.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.62,
+      "y": 46.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.68,
+      "y": 46.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.74,
+      "y": 46.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.73,
+      "y": 45.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.43,
+      "y": 45.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.15,
+      "y": 45.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.93,
+      "y": 45.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.85,
+      "y": 46.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.76,
+      "y": 46.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.76,
+      "y": 47.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.04,
+      "y": 47.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.11,
+      "y": 47.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.33,
+      "y": 47.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.57,
+      "y": 47.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 64.31,
+      "y": 44.87,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 64.31,
+      "y": 44.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.24,
+      "y": 45.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.38,
+      "y": 45.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.7,
+      "y": 45.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.64,
+      "y": 46.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.59,
+      "y": 46.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.59,
+      "y": 46.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.49,
+      "y": 47.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.4,
+      "y": 47.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.44,
+      "y": 47.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.66,
+      "y": 47.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.02,
+      "y": 46.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.37,
+      "y": 46.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.57,
+      "y": 46.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.55,
+      "y": 46.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.29,
+      "y": 45.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.05,
+      "y": 45.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 63.2,
+      "y": 45.17,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 63.2,
+      "y": 45.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.67,
+      "y": 45.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.62,
+      "y": 45.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.59,
+      "y": 45.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.28,
+      "y": 45.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.11,
+      "y": 46.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.18,
+      "y": 46.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.54,
+      "y": 46.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.88,
+      "y": 46.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.84,
+      "y": 46.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.03,
+      "y": 45.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.73,
+      "y": 45.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.47,
+      "y": 46.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.36,
+      "y": 46.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 61.75,
+      "y": 45.11,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 61.75,
+      "y": 45.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.7,
+      "y": 45.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.61,
+      "y": 45.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.57,
+      "y": 46.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.53,
+      "y": 46.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 61.24,
+      "y": 46.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.81,
+      "y": 46.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.6,
+      "y": 46.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.51,
+      "y": 46.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.04,
+      "y": 46.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.41,
+      "y": 46.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.07,
+      "y": 46.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.69,
+      "y": 46.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 58.72,
+      "y": 45.17,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 58.72,
+      "y": 45.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.19,
+      "y": 45.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.1,
+      "y": 45.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.06,
+      "y": 45.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.74,
+      "y": 46.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.61,
+      "y": 46.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.72,
+      "y": 46.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.2,
+      "y": 46.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.34,
+      "y": 46.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.0,
+      "y": 46.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.2,
+      "y": 46.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.53,
+      "y": 46.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.25,
+      "y": 45.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 55.88,
+      "y": 45.72,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 55.88,
+      "y": 45.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.99,
+      "y": 45.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.21,
+      "y": 46.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.12,
+      "y": 46.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.31,
+      "y": 46.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.71,
+      "y": 46.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 56.77,
+      "y": 46.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 55.54,
+      "y": 45.0,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 55.54,
+      "y": 45.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.49,
+      "y": 45.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.42,
+      "y": 45.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.36,
+      "y": 46.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.23,
+      "y": 46.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.96,
+      "y": 47.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.52,
+      "y": 46.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.48,
+      "y": 46.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.56,
+      "y": 45.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 54.14,
+      "y": 44.83,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 54.14,
+      "y": 44.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.06,
+      "y": 45.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.79,
+      "y": 45.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.33,
+      "y": 45.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.22,
+      "y": 45.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.16,
+      "y": 45.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.12,
+      "y": 45.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.08,
+      "y": 46.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.04,
+      "y": 46.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.98,
+      "y": 46.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.92,
+      "y": 46.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 52.95,
+      "y": 47.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.41,
+      "y": 47.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 54.66,
+      "y": 34.01,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 54.66,
+      "y": 34.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.05,
+      "y": 34.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.26,
+      "y": 34.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.29,
+      "y": 34.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.14,
+      "y": 35.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.87,
+      "y": 35.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.72,
+      "y": 35.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.92,
+      "y": 36.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.22,
+      "y": 36.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.4,
+      "y": 36.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.43,
+      "y": 37.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.31,
+      "y": 37.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 55.04,
+      "y": 37.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.66,
+      "y": 37.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 54.21,
+      "y": 37.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.74,
+      "y": 37.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 53.38,
+      "y": 37.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 56.84,
+      "y": 33.78,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 56.84,
+      "y": 33.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.21,
+      "y": 34.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.62,
+      "y": 34.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.15,
+      "y": 34.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.43,
+      "y": 34.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.9,
+      "y": 34.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.4,
+      "y": 34.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 34.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 34.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 35.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 35.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 35.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 35.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 35.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 36.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 36.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 36.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 36.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.15,
+      "y": 36.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.14,
+      "y": 37.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.16,
+      "y": 37.4,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.4,
+      "y": 37.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 57.82,
+      "y": 37.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.34,
+      "y": 37.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.83,
+      "y": 37.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.25,
+      "y": 37.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.61,
+      "y": 37.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.9,
+      "y": 37.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.1,
+      "y": 36.68,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.17,
+      "y": 36.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.19,
+      "y": 36.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.19,
+      "y": 35.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.18,
+      "y": 35.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 60.12,
+      "y": 35.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.98,
+      "y": 34.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.75,
+      "y": 34.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 59.39,
+      "y": 34.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.99,
+      "y": 34.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 58.56,
+      "y": 34.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 62.92,
+      "y": 33.73,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 62.92,
+      "y": 33.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.28,
+      "y": 34.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.75,
+      "y": 34.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.27,
+      "y": 34.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.74,
+      "y": 34.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.13,
+      "y": 34.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.42,
+      "y": 34.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.6,
+      "y": 34.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.64,
+      "y": 35.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.61,
+      "y": 35.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.53,
+      "y": 35.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 65.29,
+      "y": 35.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.87,
+      "y": 36.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 64.35,
+      "y": 36.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.8,
+      "y": 36.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 63.3,
+      "y": 34.31,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 63.3,
+      "y": 34.31,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.25,
+      "y": 34.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.24,
+      "y": 34.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.25,
+      "y": 35.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.25,
+      "y": 35.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.24,
+      "y": 35.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.27,
+      "y": 35.84,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.4,
+      "y": 36.28,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.28,
+      "y": 36.74,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.24,
+      "y": 37.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.26,
+      "y": 37.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.24,
+      "y": 37.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.25,
+      "y": 37.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.47,
+      "y": 38.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 63.31,
+      "y": 37.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 62.85,
+      "y": 38.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 68.17,
+      "y": 34.99,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 68.17,
+      "y": 34.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.82,
+      "y": 35.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 67.34,
+      "y": 35.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.88,
+      "y": 35.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.76,
+      "y": 35.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.97,
+      "y": 35.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.96,
+      "y": 36.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.92,
+      "y": 36.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.95,
+      "y": 37.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.9,
+      "y": 37.69,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 66.62,
+      "y": 38.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 70.39,
+      "y": 35.1,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 70.39,
+      "y": 35.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.65,
+      "y": 35.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.67,
+      "y": 35.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.62,
+      "y": 36.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.6,
+      "y": 36.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.61,
+      "y": 36.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.62,
+      "y": 36.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.63,
+      "y": 37.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.61,
+      "y": 37.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.6,
+      "y": 37.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.66,
+      "y": 37.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 70.94,
+      "y": 38.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 71.64,
+      "y": 35.3,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 71.64,
+      "y": 35.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 71.66,
+      "y": 35.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.13,
+      "y": 35.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.51,
+      "y": 35.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.64,
+      "y": 36.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.67,
+      "y": 36.57,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.67,
+      "y": 37.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.64,
+      "y": 37.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 72.29,
+      "y": 38.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 75.37,
+      "y": 35.04,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 75.37,
+      "y": 35.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.95,
+      "y": 35.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.28,
+      "y": 35.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.75,
+      "y": 35.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.14,
+      "y": 35.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.54,
+      "y": 35.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.5,
+      "y": 35.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.37,
+      "y": 35.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.36,
+      "y": 36.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.37,
+      "y": 36.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.38,
+      "y": 37.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 76.25,
+      "y": 37.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.84,
+      "y": 38.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 75.39,
+      "y": 37.8,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.92,
+      "y": 37.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.52,
+      "y": 37.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.32,
+      "y": 37.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.32,
+      "y": 36.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.35,
+      "y": 36.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 74.27,
+      "y": 35.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 77.61,
+      "y": 35.17,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 77.61,
+      "y": 35.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.96,
+      "y": 35.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.98,
+      "y": 35.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.89,
+      "y": 36.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.9,
+      "y": 37.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.89,
+      "y": 37.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 77.63,
+      "y": 38.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 78.97,
+      "y": 35.27,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 78.97,
+      "y": 35.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 78.93,
+      "y": 35.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.38,
+      "y": 35.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.77,
+      "y": 35.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.92,
+      "y": 36.03,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.97,
+      "y": 36.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.99,
+      "y": 37.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.92,
+      "y": 37.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 79.71,
+      "y": 38.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 82.97,
+      "y": 35.61,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 82.97,
+      "y": 35.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.18,
+      "y": 35.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.17,
+      "y": 36.41,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.96,
+      "y": 36.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.57,
+      "y": 37.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.01,
+      "y": 37.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 83.75,
+      "y": 35.09,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 83.75,
+      "y": 35.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.35,
+      "y": 35.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.94,
+      "y": 35.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.54,
+      "y": 35.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.26,
+      "y": 35.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.99,
+      "y": 35.26,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.51,
+      "y": 35.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.31,
+      "y": 35.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.3,
+      "y": 36.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.47,
+      "y": 36.81,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.75,
+      "y": 37.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.49,
+      "y": 37.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.65,
+      "y": 37.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.09,
+      "y": 38.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.61,
+      "y": 38.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.97,
+      "y": 38.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.35,
+      "y": 38.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.58,
+      "y": 38.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.49,
+      "y": 39.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.22,
+      "y": 39.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.82,
+      "y": 39.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.29,
+      "y": 39.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.84,
+      "y": 39.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.5,
+      "y": 39.3,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.22,
+      "y": 38.96,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.24,
+      "y": 38.64,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.42,
+      "y": 38.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.64,
+      "y": 38.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 68.72,
+      "y": 33.75,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 68.72,
+      "y": 33.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.07,
+      "y": 34.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.2,
+      "y": 34.29,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.92,
+      "y": 34.72,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.84,
+      "y": 35.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.05,
+      "y": 35.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.06,
+      "y": 36.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.07,
+      "y": 36.61,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.09,
+      "y": 37.19,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 69.01,
+      "y": 37.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 68.74,
+      "y": 38.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 82.91,
+      "y": 52.53,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 82.91,
+      "y": 52.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.9,
+      "y": 53.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.9,
+      "y": 53.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.9,
+      "y": 54.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.88,
+      "y": 54.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.09,
+      "y": 55.09,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 83.07,
+      "y": 55.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.5,
+      "y": 55.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.06,
+      "y": 54.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.0,
+      "y": 54.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 82.0,
+      "y": 54.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.9,
+      "y": 53.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.61,
+      "y": 53.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.22,
+      "y": 53.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.03,
+      "y": 53.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.28,
+      "y": 54.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.68,
+      "y": 54.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.3,
+      "y": 54.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 80.97,
+      "y": 54.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 80.88,
+      "y": 54.73,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.05,
+      "y": 55.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 81.46,
+      "y": 55.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 85.32,
+      "y": 53.48,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 85.32,
+      "y": 53.48,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.11,
+      "y": 53.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 84.72,
+      "y": 53.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 84.58,
+      "y": 54.11,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 84.59,
+      "y": 54.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 84.74,
+      "y": 54.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.06,
+      "y": 55.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.53,
+      "y": 55.1,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.94,
+      "y": 54.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.1,
+      "y": 54.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.11,
+      "y": 54.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.97,
+      "y": 53.76,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 85.59,
+      "y": 53.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 86.81,
+      "y": 52.51,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 86.81,
+      "y": 52.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.83,
+      "y": 53.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.9,
+      "y": 53.58,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.84,
+      "y": 53.99,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.82,
+      "y": 54.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 86.89,
+      "y": 54.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 87.08,
+      "y": 55.04,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 87.37,
+      "y": 55.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 87.61,
+      "y": 55.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.01,
+      "y": 54.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.23,
+      "y": 54.63,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.26,
+      "y": 54.24,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.13,
+      "y": 53.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 87.82,
+      "y": 53.53,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 87.44,
+      "y": 53.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 89.03,
+      "y": 53.56,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 89.03,
+      "y": 53.56,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.98,
+      "y": 54.25,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 89.02,
+      "y": 55.01,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.98,
+      "y": 55.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 88.68,
+      "y": 56.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 90.37,
+      "y": 53.43,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 90.37,
+      "y": 53.43,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.27,
+      "y": 53.49,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 89.9,
+      "y": 53.7,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 89.78,
+      "y": 54.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 89.75,
+      "y": 54.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 89.88,
+      "y": 54.82,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.16,
+      "y": 55.07,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.62,
+      "y": 55.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.05,
+      "y": 54.97,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.03,
+      "y": 54.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.58,
+      "y": 54.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.12,
+      "y": 54.2,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.53,
+      "y": 54.17,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.01,
+      "y": 54.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.03,
+      "y": 53.75,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 90.73,
+      "y": 53.54,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 92.56,
+      "y": 53.45,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 92.56,
+      "y": 53.45,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 92.29,
+      "y": 53.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.87,
+      "y": 53.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.7,
+      "y": 54.12,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.74,
+      "y": 54.51,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 91.96,
+      "y": 54.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 92.38,
+      "y": 55.13,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 93.02,
+      "y": 55.05,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 94.34,
+      "y": 53.52,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 94.34,
+      "y": 53.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 93.93,
+      "y": 53.62,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 93.73,
+      "y": 54.27,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 93.82,
+      "y": 54.95,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 94.26,
+      "y": 55.14,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 40.6,
+      "y": 40.46,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 40.6,
+      "y": 40.46,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 40.2,
+      "y": 40.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.83,
+      "y": 41.22,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.39,
+      "y": 41.5,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.89,
+      "y": 41.66,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.45,
+      "y": 41.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.19,
+      "y": 42.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.21,
+      "y": 42.6,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.51,
+      "y": 42.92,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.98,
+      "y": 43.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.48,
+      "y": 43.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 39.89,
+      "y": 43.52,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 40.25,
+      "y": 43.94,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 40.61,
+      "y": 44.32,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 28.67,
+      "y": 42.33,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 28.67,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.23,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.78,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.34,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.9,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.46,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.02,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.58,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.14,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.7,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.26,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.82,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.38,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.93,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 36.49,
+      "y": 42.34,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 25.42,
+      "y": 42.33,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 25.42,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.69,
+      "y": 42.36,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.86,
+      "y": 42.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.52,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.01,
+      "y": 42.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.62,
+      "y": 42.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.03,
+      "y": 42.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 23.98,
+      "y": 42.35,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 23.98,
+      "y": 42.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.64,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.18,
+      "y": 42.35,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.87,
+      "y": 42.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.12,
+      "y": 42.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.56,
+      "y": 42.37,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 14.8,
+      "y": 42.33,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 14.8,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.34,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 15.88,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 16.41,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 16.95,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 17.49,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.03,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.57,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.1,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.64,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.18,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.72,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.26,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.8,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.33,
+      "y": 42.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 18.93,
+      "y": 30.87,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 18.93,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.46,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.98,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 19.91,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.34,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.85,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 20.94,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.47,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 21.57,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.12,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.5,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.02,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 22.65,
+      "y": 30.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.12,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.69,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.93,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 23.58,
+      "y": 30.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.22,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 24.67,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.12,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 25.64,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.18,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 26.69,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.22,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.43,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.6,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 27.99,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.15,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 28.65,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.18,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 29.63,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.04,
+      "y": 30.88,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.45,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.39,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 33.46,
+      "y": 30.85,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 33.46,
+      "y": 30.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.97,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.47,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.98,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.51,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.02,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 30.86,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.42,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 31.92,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.43,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 32.95,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.45,
+      "y": 30.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 33.68,
+      "y": 30.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.16,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.0,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 34.68,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.19,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.31,
+      "y": 30.91,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.61,
+      "y": 30.93,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 35.91,
+      "y": 30.98,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 36.39,
+      "y": 31.15,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 36.79,
+      "y": 31.38,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.14,
+      "y": 31.67,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.39,
+      "y": 32.06,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.62,
+      "y": 32.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.81,
+      "y": 32.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.87,
+      "y": 33.23,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.89,
+      "y": 33.47,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 33.79,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 34.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 34.42,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 34.77,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 35.02,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.9,
+      "y": 35.39,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 35.65,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 35.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 36.08,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 36.33,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 36.55,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 36.78,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 37.16,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 37.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 37.71,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 37.9,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 38.21,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.92,
+      "y": 38.44,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.91,
+      "y": 38.83,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 37.99,
+      "y": 39.18,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.2,
+      "y": 39.59,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 38.39,
+      "y": 40.0,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "MOVE",
+      "x": 17.32,
+      "y": 30.85,
+      "pen_state": "UP"
+    },
+    {
+      "action": "PEN_DOWN",
+      "x": 17.32,
+      "y": 30.85,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 17.72,
+      "y": 30.86,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.36,
+      "y": 30.87,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 18.7,
+      "y": 30.89,
+      "pen_state": "DOWN"
+    },
+    {
+      "action": "DRAW",
+      "x": 17.92,
+      "y": 30.9,
+      "pen_state": "DOWN"
+    }
+  ]
+}

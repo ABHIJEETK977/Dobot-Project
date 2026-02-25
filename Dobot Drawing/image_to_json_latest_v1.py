@@ -5,6 +5,7 @@ import math
 import os
 from scipy.interpolate import splprep, splev
 
+
 class ImageToSmoothPath:
     def __init__(
         self,
@@ -24,13 +25,14 @@ class ImageToSmoothPath:
         self.smoothing_factor = smoothing_factor
         self.sample_density_mm = sample_density_mm
         self.min_path_len_mm = min_path_len_mm
-        
+
         self.img_height = 0
         self.img_width = 0
 
     # =========================================================
-    # 1. HIGH-RES SKELETONIZATION (The Fix for "Blobs")
+    # 1. HIGH-RES SKELETONIZATION
     # =========================================================
+
     def load_and_skeletonize(self):
         if not os.path.exists(self.image_path):
             raise FileNotFoundError(f"Image not found: {self.image_path}")
@@ -43,23 +45,22 @@ class ImageToSmoothPath:
         # This makes the facial features "huge" so they don't merge when we thicken lines.
         scale_factor = 4
         img = cv2.resize(img, None, fx=scale_factor, fy=scale_factor, interpolation=cv2.INTER_CUBIC)
-        
+
         _, binary = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY_INV)
-        
+
         # CHANGE 2: Conservative Dilation
         # We use a 3x3 kernel on a 4x image. This is effectively a "finer pen."
         kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
         binary = cv2.dilate(binary, kernel, iterations=1)
-        
+
         # Close gaps (Morphological Closing) - helps with dashed lines
         binary = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, kernel)
-        
         self.img_height, self.img_width = binary.shape
-        
+
         # Standard Skeletonization
         skeleton = np.zeros(binary.shape, np.uint8)
         element = cv2.getStructuringElement(cv2.MORPH_CROSS, (3, 3))
-        
+
         while True:
             open_img = cv2.morphologyEx(binary, cv2.MORPH_OPEN, element)
             temp = cv2.subtract(binary, open_img)
@@ -257,12 +258,12 @@ class ImageToSmoothPath:
         print(f"   Paths count: {len(stitched)}")
         print("5. Smoothing...")
         smooth = self.smooth_paths_spline(stitched)
-        
+
         data = self.generate_dobot_json(smooth)
-        
+
         json_path = os.path.join(output_dir_name, "robot_commands.json")
         with open(json_path, 'w') as f: json.dump(data, f, indent=2)
-            
+
         svg_path = os.path.join(output_dir_name, "preview.svg")
         with open(svg_path, "w") as f:
             f.write(f'<svg width="{self.output_width}mm" height="{self.output_height}mm" viewBox="0 0 {self.output_width} {self.output_height}" xmlns="http://www.w3.org/2000/svg">')
@@ -275,14 +276,14 @@ class ImageToSmoothPath:
 
 if __name__ == "__main__":
     converter = ImageToSmoothPath(
-        image_path="Newton.jpg",
+        image_path="3d-printing-img.png",
         output_width=100.0,
         output_height=100.0, 
-        
+
         # TUNING FOR V5
         stitch_threshold_mm=1.0,  # Strict stitching
         smoothing_factor=0.2,     # LOW: Keep sharp details
         sample_density_mm=0.5,    # High res
         min_path_len_mm=2.0       # Keep small details
     )
-    converter.run("output_latest_smooth")
+    # converter.run("output_latest_smooth")
