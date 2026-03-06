@@ -35,6 +35,15 @@ Z_DRAW = -42.0      # Drawing height (RAISED from -48.0 to increase XY reachabil
 R_HEAD = 0.0        # Rotation axis
 
 # ============================================================================
+# CP (Continuous Path) PARAMETERS
+# ============================================================================
+# These are NOT the same as PTP params. Tune as needed.
+CP_PLAN_ACC     = 800.0     # path planning acceleration
+CP_JUNCTION_VEL = 80.0      # cornering / junction velocity
+CP_ACC          = 800.0     # execution acceleration
+CP_REALTIME     = 0         # 0 = queued path; 1 = realtime track (leave 0 here)
+
+# ============================================================================
 # CONNECTION CONFIG
 # ============================================================================
 PORT = "COM15"
@@ -181,6 +190,9 @@ def setup_dobot(api):
     # Set Cartesian motion parameters
     dType.SetPTPCoordinateParams(api, VELOCITY, ACCELERATION, VELOCITY, ACCELERATION, 0)
 
+    # Set CP params
+    dType.SetCPParams(api, CP_PLAN_ACC, CP_JUNCTION_VEL, CP_ACC, CP_REALTIME, 0)
+    
     # Home the robot
     last = dType.SetHOMECmd(api, 0, 1)[0]
     wait_for_command(last)
@@ -502,6 +514,15 @@ def move_draw(api, x, y, velocity=None, acceleration=None):
 
     return dType.SetPTPCmd (api, dType.PTPMode.PTPMOVLXYZMode, x, y, Z_DRAW, R_HEAD, 1)[0]
 
+def cp_draw_point(api, x, y, z=Z_DRAW, velocity=None):
+    """
+    Enqueue one CP absolute point at drawing height.
+    Returns queued index.
+    """
+    if velocity is None:
+        velocity = VELOCITY
+    return dType.SetCPCmd(api, dType.ContinuousPathMode.CPAbsoluteMode, x, y, z, velocity, 1)[0]
+
 def lift_safe_here(api):
     """Lift current position to Z_SAFE."""
     pose = get_current_position()
@@ -743,6 +764,8 @@ def draw_sketch(api, commands, s, tx, ty):
     cur_x = pose[0]
     cur_y = pose[1]
     cur_z = Z_SAFE
+    in_stroke = False
+    last_cp_idx = None
 
     total = len(commands)
 
@@ -764,12 +787,20 @@ def draw_sketch(api, commands, s, tx, ty):
             x_abs, y_abs = cur_x, cur_y
 
         if action == "MOVE" and pen_state == "UP":
+            if in_stroke and last_cp_idx is not None:
+                wait_for_command(last_cp_idx)
+                in_stroke = False
+                last_cp_idx = None
             if cur_z != Z_SAFE:
                 wait_for_command(lift_safe_here(api))
                 cur_z = Z_SAFE
             wait_for_command(move_safe(api, x_abs, y_abs))
 
         elif action == "PEN_DOWN":
+            if in_stroke and last_cp_idx is not None:
+                wait_for_command(last_cp_idx)
+                in_stroke = False
+                last_cp_idx = None
             if cur_x != x_abs or cur_y != y_abs:
                 if cur_z != Z_SAFE:
                     wait_for_command(lift_safe_here(api))
@@ -778,17 +809,32 @@ def draw_sketch(api, commands, s, tx, ty):
             wait_for_command(move_draw(api, x_abs, y_abs))
             cur_z = Z_DRAW
 
+            # Start stroke: enqueue first CP point at current location
+            last_cp_idx = cp_draw_point(api, x_abs, y_abs, Z_DRAW, velocity=VELOCITY)
+            in_stroke = True
+
+
         elif action == "DRAW" and pen_state == "DOWN":
             if cur_z != Z_DRAW:
                 wait_for_command(move_draw(api, x_abs, y_abs))
-            wait_for_command(move_draw(api, x_abs, y_abs))
-            cur_z = Z_DRAW
+                cur_z = Z_DRAW
+                last_cp_idx = cp_draw_point(api, x_abs, y_abs, Z_DRAW, velocity=VELOCITY)
+                in_stroke = True
+            else:
+                last_cp_idx = cp_draw_point(api, x_abs, y_abs, Z_DRAW, velocity=VELOCITY)
+                in_stroke = True
 
         elif action == "MOVE" and pen_state == "DOWN":
             # treat as drawing move with pen down
             if cur_z != Z_DRAW:
                 wait_for_command(move_draw(api, x_abs, y_abs))
-            wait_for_command(move_draw(api, x_abs, y_abs))
+                cur_z = Z_DRAW
+                last_cp_idx = cp_draw_point(api, x_abs, y_abs, Z_DRAW, velocity=VELOCITY)
+                in_stroke = True
+            else:
+                last_cp_idx = cp_draw_point(api, x_abs, y_abs, Z_DRAW, velocity=VELOCITY)
+                in_stroke = True
+
             cur_z = Z_DRAW
 
         cur_x, cur_y = x_abs, y_abs
@@ -801,6 +847,9 @@ def draw_sketch(api, commands, s, tx, ty):
 
         # allow user to pause at any time; will lift to Z_SAFE and resume from same XY
         cur_z = handle_pause(api, cur_z)
+
+    if in_stroke and last_cp_idx is not None:
+        wait_for_command(last_cp_idx)
 
     wait_for_command(lift_safe_here(api))
 
