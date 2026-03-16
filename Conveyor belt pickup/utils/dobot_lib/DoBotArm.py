@@ -421,7 +421,7 @@ class DoBotArm:
             )[0]
             self._wait(last)
             
-    def set_conveyor_speed(self, mm_per_s: float, *, diameter_mm: float = 32.0,
+    def set_conveyor_speed(self, mm_per_s: float, motor_index: int, *, diameter_mm: float = 32.0,
                            step_deg: float = 1.8, microstep: int = 16, gear_ratio: float = 5.0,
                            queue: bool = True,reverse=False):
         """
@@ -442,10 +442,10 @@ class DoBotArm:
     
         if mm_per_s == 0:
             # Stop & disable
-            dType.SetEMotor(api=self.api, index=0, isEnabled=0, speed=0, isQueued=queue)
+            dType.SetEMotor(api=self.api, index=motor_index, isEnabled=0, speed=0, isQueued=queue)
         else:
             # Enable & run
-            dType.SetEMotor(api=self.api, index=0, isEnabled=1, speed=speed_pps, isQueued=queue)
+            dType.SetEMotor(api=self.api, index=motor_index, isEnabled=1, speed=speed_pps, isQueued=queue)
     
 
 # Some new functions 

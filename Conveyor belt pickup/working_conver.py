@@ -1,13 +1,3 @@
-'''
-To run the file use the command below
-Check the input device and the location of the files.
-
-python working_conver.py 
---hef-path resources/fruit_dobot_v1.hef 
---input /dev/video0 --labels-json resources/fruit_dobot_v1.json
-'''
-
-
 # main_out.py
 import os
 import time
@@ -38,23 +28,43 @@ from utils.dobot_lib.DobotDllType import SetIOMultiplexing, GetIODI  # direct DI
 # ==============================
 HOME = (234.6, 13.5, 116.3)
 CONVEYOR_MM_S = 45.0          # >0 forward, 0 stop
-SENSOR_PIN = 15               # DI15
+stepper_index = 1             # 0 or 1 for stepper 1 or 2
+SENSOR_PIN = 17               # DI15 or DI17 for port 1 or 6
 COOLDOWN_S = 0.75             # min time between two pick cycles (safety)
-stagging_pos = (248.3, 13.5, 54.6)
-tray_approach_pos = (20, -267.9, 63.4)
+staging_pos = (248.3, 13.5, 34.6)
+tray_approach_pos = [20, -267.9, 63.4]
 
 # Label → bin coordinates
 DEFAULT_DROP_Z = 45
+Drop_side = 'Left'
+
+Drop_coord = [(-51,   -188.3),   # red apple
+              (14,    -185.2),   # strawberry
+              (73.8,  -180.1),   # olive
+              (77.4,  -238.7),   # green apple
+              (21.6,  -247.3),   # pomegranate
+              (-41.9, -252.3),   # pumpkin
+              (-43.5, -309.6),   # carrot
+              (19.3,  -307.9),   # eggplant
+              (80.9,  -299.9)]   # corn
+
+if Drop_side == 'Right':
+    tray_approach_pos = tray_approach_pos
+    Drop_coord = Drop_coord
+else:
+    tray_approach_pos[1] = -tray_approach_pos[1]
+    Drop_coord = [(x, -y) for (x, y) in Drop_coord]
+
 DROP_ZONES = {
-    "red apple":    (-51,   -188.3, DEFAULT_DROP_Z),
-    "strawberry":   (14,    -185.2, DEFAULT_DROP_Z),
-    "olive":        (73.8,  -180.1, DEFAULT_DROP_Z),
-    "green apple":  (77.4,  -238.7, DEFAULT_DROP_Z),
-    "pomegranate":  (21.6,  -247.3, DEFAULT_DROP_Z),
-    "pumpkin":      (-41.9, -252.3, DEFAULT_DROP_Z),
-    "carrot":       (-43.5, -309.6, DEFAULT_DROP_Z),
-    "eggplant":  (19.3,  -307.9, DEFAULT_DROP_Z),
-    "corn":    (80.9,  -299.9, DEFAULT_DROP_Z),
+    "red apple":    (Drop_coord[0][0],   Drop_coord[0][1], DEFAULT_DROP_Z),
+    "strawberry":   (Drop_coord[1][0],   Drop_coord[1][1], DEFAULT_DROP_Z),
+    "olive":        (Drop_coord[2][0],   Drop_coord[2][1], DEFAULT_DROP_Z),
+    "green apple":  (Drop_coord[3][0],   Drop_coord[3][1], DEFAULT_DROP_Z),
+    "pomegranate":  (Drop_coord[4][0],   Drop_coord[4][1], DEFAULT_DROP_Z),
+    "pumpkin":      (Drop_coord[5][0],   Drop_coord[5][1], DEFAULT_DROP_Z),
+    "carrot":       (Drop_coord[6][0],   Drop_coord[6][1], DEFAULT_DROP_Z),
+    "eggplant":     (Drop_coord[7][0],   Drop_coord[7][1], DEFAULT_DROP_Z),
+    "corn":        (Drop_coord[8][0],   Drop_coord[8][1], DEFAULT_DROP_Z),
 }
 ALLOW_LABELS = {
     "eggplant", "carrot", "green apple", "olive",
@@ -63,15 +73,15 @@ ALLOW_LABELS = {
 SHUTDOWN = threading.Event()
 
 PICK_Z_BY_LABEL = {
-    "red apple":   45.0,
-    "strawberry":  40.0,
-    "olive":       40.0,
-    "green apple": 45.0,
-    "pomegranate": 45.0,
-    "pumpkin":     40.0,
-    "carrot":      42.0,
-    "eggplant": 40.0,
-    "corn":   35.0,
+    "red apple":   20.0,
+    "strawberry":  15.0,
+    "olive":       15.0,
+    "green apple": 20.0,
+    "pomegranate": 20.0,
+    "pumpkin":     15.0,
+    "carrot":      17.0,
+    "eggplant": 25.0,
+    "corn":   10.0,
 }
 CONF_THRESH = 0.4
 MIN_BOX_AREA = 0
@@ -152,7 +162,7 @@ def _safe_shutdown(bot: Dbt | None):
     try:
         if bot:
             print("[shutdown] stopping conveyor…")
-            bot.set_conveyor_speed(0.0)
+            bot.set_conveyor_speed(0., stepper_index)
             time.sleep(0.2)   # ensure command is sent
             bot.moveHome()
         print("[shutdown] done.")
@@ -391,12 +401,12 @@ def app_callback(pad, info, state: UserState):
 # Worker: executes robot motions OFF the streaming thread
 # =========================================================
 def pick_worker(shared: Shared):
-    while True:
-        while not SHUTDOWN.is_set():
-            try:
-                task = shared.pick_q.get(timeout=0.1)
-            except Empty:
-                continue
+    while not SHUTDOWN.is_set():
+        try:
+            task = shared.pick_q.get(timeout=0.1)
+        except Empty:
+            continue
+
         try:
             with ACTION_LOCK:
                 print(f"[pick] {task.label} -> "
@@ -406,13 +416,13 @@ def pick_worker(shared: Shared):
                 shared.bot.pick_and_place_tray_loc(
                     task.x_pick, task.y_pick, task.z_pick,
                     task.x_drop, task.y_drop, task.z_drop,
-                    stagging_pos,
+                    staging_pos,
                     tray_approach_pos,
                 )
-                shared.bot.moveHome()
-                _wait_until_pose(shared.bot, HOME[:3], tol=(1.5, 1.5, 1.5), timeout_s=10.0)
 
-                # NEW: announce completion
+                shared.bot.moveHome()
+                _wait_until_pose(shared.bot, HOME[:3], tol=(1.5,1.5,1.5), timeout_s=10.0)
+
                 try:
                     shared.tts.speak(f"Okay, Done with {task.label}")
                 except Exception:
@@ -436,7 +446,7 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
     SetIOMultiplexing(api, sensor_pin, 3, 0)
 
     print(f"[conv] start {speed_mm_s} mm/s")
-    shared.bot.set_conveyor_speed(speed_mm_s)
+    shared.bot.set_conveyor_speed(speed_mm_s, stepper_index)
 
     try:
         while not SHUTDOWN.is_set():
@@ -449,7 +459,7 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
 
             if val == 0 and not shared.object_ready.is_set():
                 print("[sensor] OBJECT DETECTED -> stopping belt")
-                shared.bot.set_conveyor_speed(0.0)
+                shared.bot.set_conveyor_speed(0.0,stepper_index)
                 time.sleep(0.7)
 
                 shared.pick_done.clear()
@@ -471,13 +481,13 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
                     break
 
                 print("[sensor] restarting belt")
-                shared.bot.set_conveyor_speed(speed_mm_s)
+                shared.bot.set_conveyor_speed(speed_mm_s, stepper_index)
 
             time.sleep(0.01)
     finally:
         print("[conv] shutdown → stopping conveyor")
         try:
-            shared.bot.set_conveyor_speed(0.0)
+            shared.bot.set_conveyor_speed(0.0, stepper_index)
             time.sleep(0.2)  # ensure command is processed
             print("[conv] conveyor stopped successfully")
         except Exception as e:
@@ -499,7 +509,7 @@ def main():
 
     tts = TTSSpeaker()  # <-- NEW
     tts.speak("Hello, system is starting up")
-    atexit.register(lambda: bot.set_conveyor_speed(0.0))
+    atexit.register(lambda: bot.set_conveyor_speed(0.0, stepper_index))
     def _safe_shutdown_local():
         _safe_shutdown(bot)
         try:
@@ -560,7 +570,7 @@ def main():
         # Force stop conveyor if thread didn't finish
         print("[main] Ensuring conveyor is stopped...")
         try:
-            bot.set_conveyor_speed(0.0)
+            bot.set_conveyor_speed(0.0, stepper_index)
             time.sleep(0.2)
         except Exception as e:
             print(f"[main] Error stopping conveyor: {e}")
