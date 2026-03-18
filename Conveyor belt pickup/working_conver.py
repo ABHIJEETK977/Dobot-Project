@@ -11,7 +11,7 @@ import gi
 gi.require_version("Gst", "1.0")
 from gi.repository import Gst
 
-import atexit, signal, sys
+import signal, sys
 import numpy as np
 
 # --- Hailo / pipeline pieces ---
@@ -132,7 +132,8 @@ def _wait_until_pose(bot: Dbt, target_xyz, tol=(1.5, 1.5, 1.5), timeout_s=20.0, 
             print(f"[robot][WARN] wait_until_pose timed out after {timeout_s}s; "
                   f"last pose={pose if 'pose' in locals() else None}, target={target_xyz}")
             return False
-        time.sleep(poll_s)
+        if SHUTDOWN.wait(poll_s):
+            return False
 
 def _apply_homography(u: int, v: int) -> tuple[float, float]:
     """Apply H to pixel (u,v) → world (X,Y) in robot table coordinates (mm)."""
@@ -158,17 +159,39 @@ def uv_to_robot_xyz(label: str, u: int, v: int) -> tuple[float, float, float]:
         Z = PICK_Z_BY_LABEL.get(label)
         return X, Y, Z
 
-def _safe_shutdown(bot: Dbt | None):
+CLEANUP_STARTED = threading.Event()
+
+def _best_effort_stop(bot: Dbt | None):
+    """
+    Stop conveyor immediately.
+    Do NOT call moveHome() during Ctrl-C shutdown unless you know the robot is idle.
+    """
+    if CLEANUP_STARTED.is_set():
+        return
+    CLEANUP_STARTED.set()
+
     try:
         if bot:
-            print("[shutdown] stopping conveyor…")
-            bot.set_conveyor_speed(0., stepper_index)
-            time.sleep(0.2)   # ensure command is sent
-            bot.moveHome()
-        print("[shutdown] done.")
+            print("[shutdown] stopping conveyor...")
+            try:
+                bot.set_conveyor_speed(0.0, stepper_index)
+                time.sleep(0.2)
+            except Exception as e:
+                print(f"[shutdown][WARN] conveyor stop failed: {e}")
+
+            # Only home if robot is definitely idle.
+            if ACTION_LOCK.acquire(blocking=False):
+                try:
+                    print("[shutdown] robot appears idle; moving home...")
+                    bot.moveHome()
+                except Exception as e:
+                    print(f"[shutdown][WARN] moveHome failed: {e}")
+                finally:
+                    ACTION_LOCK.release()
+            else:
+                print("[shutdown] robot busy; skipping moveHome during shutdown")
     except Exception as e:
         print(f"[shutdown][WARN] {e}")
-
 
 class TTSSpeaker:
     """
@@ -408,7 +431,15 @@ def pick_worker(shared: Shared):
             continue
 
         try:
+            if SHUTDOWN.is_set():
+                print("[pick] shutdown set before executing task; skipping")
+                continue
+
             with ACTION_LOCK:
+                if SHUTDOWN.is_set():
+                    print("[pick] shutdown set after acquiring lock; skipping")
+                    continue
+
                 print(f"[pick] {task.label} -> "
                       f"pick({task.x_pick:.1f},{task.y_pick:.1f},{task.z_pick:.1f}) "
                       f"drop({task.x_drop:.1f},{task.y_drop:.1f},{task.z_drop:.1f})")
@@ -453,14 +484,21 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
             # Check shutdown first before any blocking operations
             if SHUTDOWN.is_set():
                 break
-                
-            di = GetIODI(api, sensor_pin)
-            val = int(di[0]) if isinstance(di, (tuple, list)) else int(di)
+
+            try:
+                di = GetIODI(api, sensor_pin)
+                val = int(di[0]) if isinstance(di, (tuple, list)) else int(di)
+            except Exception as e:
+                print(f"[sensor][WARN] GetIODI failed: {e}")
+                if SHUTDOWN.wait(0.05):
+                    break
+                continue
 
             if val == 0 and not shared.object_ready.is_set():
                 print("[sensor] OBJECT DETECTED -> stopping belt")
                 shared.bot.set_conveyor_speed(0.0,stepper_index)
-                time.sleep(0.7)
+                if SHUTDOWN.wait(0.7):
+                    break
 
                 shared.pick_done.clear()
                 shared.object_ready.set()
@@ -475,7 +513,8 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
                     if time.time() - start > timeout:
                         print("[sensor] Pick timeout")
                         break
-                    time.sleep(0.1)
+                    if SHUTDOWN.wait(0.1):
+                        break
 
                 if SHUTDOWN.is_set():
                     break
@@ -483,7 +522,8 @@ def belt_and_sensor_loop(shared: Shared, *, speed_mm_s: float, sensor_pin: int):
                 print("[sensor] restarting belt")
                 shared.bot.set_conveyor_speed(speed_mm_s, stepper_index)
 
-            time.sleep(0.01)
+            if SHUTDOWN.wait(0.1):
+                break
     finally:
         print("[conv] shutdown → stopping conveyor")
         try:
@@ -509,21 +549,28 @@ def main():
 
     tts = TTSSpeaker()  # <-- NEW
     tts.speak("Hello, system is starting up")
-    atexit.register(lambda: bot.set_conveyor_speed(0.0, stepper_index))
+    shutdown_count = {"n": 0}
+
+    def _shutdown_request(reason: str):
+        if not SHUTDOWN.is_set():
+            print(f"[shutdown] requested by {reason}")
+            SHUTDOWN.set()
+
     def _safe_shutdown_local():
-        _safe_shutdown(bot)
+        _best_effort_stop(bot)
         try:
             tts.stop()
         except Exception:
             pass
 
-    atexit.register(_safe_shutdown_local)
-
     def _sig_handler(signum, frame):
-        print(f"[signal] received {signum}, shutting down safely…")
-        SHUTDOWN.set()                # <-- notify threads
-        _safe_shutdown_local()        # <-- stop belt + robot
-
+        shutdown_count["n"] += 1
+        if shutdown_count["n"] == 1:
+            print(f"[signal] received {signum}; requesting shutdown...")
+            _shutdown_request(f"signal {signum}")
+        else:
+            print("[signal] second Ctrl-C -> forcing process exit")
+            os._exit(130)
 
     for sig in (signal.SIGINT, signal.SIGTERM):
         try:
@@ -548,14 +595,14 @@ def main():
         target=belt_and_sensor_loop,
         args=(shared,),
         kwargs=dict(speed_mm_s=CONVEYOR_MM_S, sensor_pin=SENSOR_PIN),
-        daemon=False  # <-- CHANGED: non-daemon so it blocks exit
+        daemon=True  # <-- CHANGED: non-daemon so it blocks exit
     )
     t_belt.start()
 
     print("[INFO] Running. Ctrl-C to quit.")
     try:
-        while not SHUTDOWN.is_set():
-            time.sleep(0.1)
+        while not SHUTDOWN.wait(0.1):
+            pass
     except KeyboardInterrupt:
         print("[main] KeyboardInterrupt - stopping system...")
         SHUTDOWN.set()
