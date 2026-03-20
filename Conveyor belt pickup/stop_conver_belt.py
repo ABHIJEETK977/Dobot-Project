@@ -13,5 +13,5 @@ from gi.repository import Gst
 HOME_POSE = (234.6, 13.5, 116.3) # X,Y,Z, rHead (adjust as needed)
 bot=Dbt(HOME_POSE[0],HOME_POSE[1],HOME_POSE[2])
 bot.moveHome()
-bot.set_conveyor_speed(0)
+bot.set_conveyor_speed(0, 1)
 
