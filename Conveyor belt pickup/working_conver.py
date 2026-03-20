@@ -72,16 +72,18 @@ ALLOW_LABELS = {
 }
 SHUTDOWN = threading.Event()
 
+Default_Pick_Z = 20.0
+
 PICK_Z_BY_LABEL = {
-    "red apple":   20.0,
-    "strawberry":  15.0,
-    "olive":       15.0,
-    "green apple": 20.0,
-    "pomegranate": 20.0,
-    "pumpkin":     15.0,
-    "carrot":      17.0,
-    "eggplant": 25.0,
-    "corn":   10.0,
+    "red apple":   Default_Pick_Z,
+    "strawberry":  Default_Pick_Z - 5.0,
+    "olive":       Default_Pick_Z - 5.0,
+    "green apple": Default_Pick_Z,
+    "pomegranate": Default_Pick_Z,
+    "pumpkin":     Default_Pick_Z - 5.0,
+    "carrot":      Default_Pick_Z - 3.0,
+    "eggplant": Default_Pick_Z + 5.0,
+    "corn":   Default_Pick_Z - 10.0,
 }
 CONF_THRESH = 0.4
 MIN_BOX_AREA = 0
