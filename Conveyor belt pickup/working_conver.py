@@ -71,16 +71,18 @@ ALLOW_LABELS = {
 }
 SHUTDOWN = threading.Event()
 
+Default_Pick_Z = 20.0
+
 PICK_Z_BY_LABEL = {
-    "red apple":   20.0,
-    "strawberry":  15.0,
-    "olive":       15.0,
-    "green apple": 20.0,
-    "pomegranate": 20.0,
-    "pumpkin":     15.0,
-    "carrot":      17.0,
-    "eggplant": 25.0,
-    "corn":   10.0,
+    "red apple":   Default_Pick_Z,
+    "strawberry":  Default_Pick_Z - 5.0,
+    "olive":       Default_Pick_Z - 5.0,
+    "green apple": Default_Pick_Z,
+    "pomegranate": Default_Pick_Z,
+    "pumpkin":     Default_Pick_Z - 5.0,
+    "carrot":      Default_Pick_Z - 3.0,
+    "eggplant": Default_Pick_Z + 5.0,
+    "corn":   Default_Pick_Z - 10.0,
 }
 CONF_THRESH = 0.4
 MIN_BOX_AREA = 0
@@ -565,8 +567,14 @@ def main():
     def _sig_handler(signum, frame):
         shutdown_count["n"] += 1
         if shutdown_count["n"] == 1:
-            print(f"[signal] received {signum}; requesting shutdown...")
-            _shutdown_request(f"signal {signum}")
+            print(f"[signal] received {signum}; EMERGENCY STOP")
+
+            try:
+                bot.set_conveyor_speed(0.0, stepper_index)
+            except Exception as e:
+                print(f"[signal] conveyor stop failed: {e}")
+
+            SHUTDOWN.set()
         else:
             print("[signal] second Ctrl-C -> forcing process exit")
             os._exit(130)
@@ -582,6 +590,11 @@ def main():
     # Detection app (runs continuously; no preview)
     state = UserState(shared=shared, use_frame=False)
     app = GStreamerDetectionApp(app_callback, state)
+
+    app = GStreamerDetectionApp(app_callback, state)
+    for sig in (signal.SIGINT, signal.SIGTERM):
+        signal.signal(sig, _sig_handler)
+        
     t_detect = threading.Thread(target=app.run, daemon=True)
     t_detect.start()
 
@@ -594,7 +607,7 @@ def main():
         target=belt_and_sensor_loop,
         args=(shared,),
         kwargs=dict(speed_mm_s=CONVEYOR_MM_S, sensor_pin=SENSOR_PIN),
-        daemon=True  # <-- CHANGED: non-daemon so it blocks exit
+        daemon=False  # <-- CHANGED: non-daemon so it blocks exit
     )
     t_belt.start()
 
@@ -621,6 +634,15 @@ def main():
         except Exception as e:
             print(f"[main] Error stopping conveyor: {e}")
         
+        print("[main] Stopping GStreamer pipeline...")
+
+        try:
+            if app.pipeline:
+                app.pipeline.set_state(Gst.State.NULL)
+            if app.loop:
+                app.loop.quit()
+        except Exception as e:
+            print(f"[main] GStreamer stop error: {e}")
         _safe_shutdown_local()
         print("[main] Shutdown complete.")
 
