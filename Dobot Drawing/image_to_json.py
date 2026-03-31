@@ -247,7 +247,7 @@ class ImageToSmoothPath:
     # =========================================================
     # 6.25. DEBUG
     # =========================================================
-    
+
     def _save_img(self, path, img):
         # img can be uint8 grayscale; saves to disk
         cv2.imwrite(path, img)
@@ -271,7 +271,7 @@ class ImageToSmoothPath:
     # 6.5. DEBUG RUNNER
     # =========================================================
     
-    def run_step_by_step(self, output_dir_name="debug_output"):
+    def run_step_by_step(self, output_dir_name="Debug/debug_output"):
         os.makedirs(output_dir_name, exist_ok=True)
         print(f"\n=== STEP-BY-STEP DEBUG: {self.image_path} ===")
 
@@ -341,9 +341,9 @@ class ImageToSmoothPath:
 
 if __name__ == "__main__":
     converter = ImageToSmoothPath(
-        image_path="Line-face-image.jpg",
+        image_path="images/AI/Promt2_AI_portrait.png",
         output_width=100.0,
-        output_height=100.0, 
+        output_height=100.0,
 
         # TUNING FOR V5
         stitch_threshold_mm=1.0,  # Strict stitching

@@ -4,14 +4,13 @@ import time
 import threading
 from pathlib import Path
 from dataclasses import dataclass
-from queue import Queue
 import subprocess, shutil
 from queue import Queue, Empty
 import gi
 gi.require_version("Gst", "1.0")
 from gi.repository import Gst
 
-import signal, sys
+import signal
 import numpy as np
 
 # --- Hailo / pipeline pieces ---
@@ -24,7 +23,7 @@ from utils.dobot_lib.DoBotArm import DoBotArm as Dbt
 from utils.dobot_lib.DobotDllType import SetIOMultiplexing, GetIODI  # direct DI access
 
 # ==============================
-# Tunables (edit for your rig)
+# Tunables (edit as needed)
 # ==============================
 HOME = (234.6, 13.5, 116.3)
 CONVEYOR_MM_S = 45.0          # >0 forward, 0 stop

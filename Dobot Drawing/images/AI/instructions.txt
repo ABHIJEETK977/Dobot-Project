@@ -1,0 +1,58 @@
+Promt1
+"Create a minimalist, simplified black and white line art sketch from the attached image.
+This image is for an algorithmic vector tracing process, so it must have these exact characteristics:
+
+Pure Black & White: Consist only of solid black lines on a pure white background.
+No Shading or Texture: Absolutely no gradients, halftones, or shading.
+Essential Lines Only: Reduce the subject to its absolute core structural lines and major contours (like the outline of the head, body, and main features).
+No Fine Details: Explicitly exclude small details like individual hair strands, wrinkles, or background textures.
+The goal is a clean, simple, high-contrast outline that a trace algorithm can convert to a few, smooth vector paths."
+
+
+Prompt2
+“Convert the portrait into sparse robotic-trace line art. Hard constraints: - White background. - Thin black outlines only.
+- No filled black areas.
+- No solid hair fill.
+- No solid eyebrow fill.
+- No solid beard fill.
+- Hair should be shown only with: 1. outer boundary of the hairstyle 2. 3 to 8 major flow lines
+- Leave the interior of the hair mostly white.
+- Facial hair should be reduced to a few contour strokes only.
+- Keep the drawing minimal and structurally readable.
+- The result must look like pen outline drawing, not a stencil or silhouette cutout.”
+
+Prompt3
+Convert the portrait into sparse robotic-trace pen line art for vector tracing.
+
+Hard constraints:
+- Pure white background.
+- Thin black contour lines only.
+- No filled black regions anywhere.
+- No stencil look, no silhouette look.
+- No shading, hatching, gradients, or texture.
+- Keep the drawing minimal but recognizable.
+
+Hair:
+- No solid hair fill.
+- Show hair only as the outer hairstyle boundary plus 3 to 8 major flow lines.
+- Leave the hair interior mostly white.
+
+Eyebrows and facial hair:
+- No solid eyebrow fill.
+- No solid beard or moustache fill.
+- Facial hair, if present, must be reduced to a few contour strokes only.
+
+Face:
+- Preserve essential facial structure: face outline, jawline, eyes, nose, lips, and smile.
+
+Smile and teeth:
+- If the source portrait shows visible teeth, retain the teeth in simplified form.
+- Teeth must remain white.
+- Do not draw every tooth individually.
+- Indicate the teeth using a light outer contour of the teeth region and only a few minimal separator lines if necessary.
+- Do not convert the mouth interior into a dark filled opening unless clearly required by the reference.
+
+Output style:
+- Clean pen-outline drawing.
+- Structurally readable.
+- Suitable for robotic tracing and vector path extraction.

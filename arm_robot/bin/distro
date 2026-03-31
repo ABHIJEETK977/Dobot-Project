@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/Users/abhijeetkadam/Library/CloudStorage/Box-Box/AM_Group_Abhijeet/Projects/Dobot Projects/Sorting and Drawing Projects/arm_robot/bin/python3.11" "$0" "$@"
+' '''
+import sys
+from distro.distro import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
