@@ -38,9 +38,13 @@ R_HEAD = 0.0        # Rotation axis
 # CP (Continuous Path) PARAMETERS
 # ============================================================================
 # These are NOT the same as PTP params. Tune as needed.
-CP_PLAN_ACC     = 800.0     # path planning acceleration
-CP_JUNCTION_VEL = 80.0      # cornering / junction velocity
-CP_ACC          = 800.0     # execution acceleration
+CP_PLAN_ACC     = 200.0
+CP_JUNCTION_VEL = 15.0
+CP_ACC          = 200.0
+
+# CP_PLAN_ACC     = 800.0     # path planning acceleration
+# CP_JUNCTION_VEL = 80.0      # cornering / junction velocity
+# CP_ACC          = 800.0     # execution acceleration
 CP_REALTIME     = 0         # 0 = queued path; 1 = realtime track (leave 0 here)
 
 # ============================================================================
@@ -71,13 +75,19 @@ BOUND_ORIGIN_MODE = "tl"  # "TL" or "CENTER"
 Y_AXIS_FLIP = False  # set True if your frame goes the "wrong" way in Y
 
 # Frame parameters (already tuned for reachability)
-BOUND_X = 200.0     # top-left X or center X (see BOUND_ORIGIN_MODE)
-BOUND_Y = -90.0     # CHANGED from -50.0 to -20.0 (moved closer in Y direction)
-BOUND_W = 120.0     # visible frame width (mm)
-BOUND_H = 180.0     # CHANGED from 150.0 to 120.0 (reduced height for safety margin)
+BOUND_X = 170.0
+BOUND_Y = -70.0
+BOUND_W = 100.0
+BOUND_H = 140.0
+INNER_MARGIN = 8.0
+
+# BOUND_X = 200.0     # top-left X or center X (see BOUND_ORIGIN_MODE)
+# BOUND_Y = -90.0     # CHANGED from -50.0 to -20.0 (moved closer in Y direction)
+# BOUND_W = 120.0     # visible frame width (mm)
+# BOUND_H = 180.0     # CHANGED from 150.0 to 120.0 (reduced height for safety margin)
 
 # Sketch must stay this far inside the frame line
-INNER_MARGIN = 5.0
+# INNER_MARGIN = 5.0
 
 # Allow uniform auto-scaling to fit inside the inner rectangle
 ALLOW_SCALING = True

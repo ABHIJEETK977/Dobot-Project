@@ -376,7 +376,7 @@ def app_callback(pad, info, state: UserState):
     dets = [d for d in dets if float(d.get("score", 0.0)) >= float(CONF_THRESH)]
     if MIN_BOX_AREA is not None:
         dets = [d for d in dets if (d.get("area") is None or float(d["area"]) >= float(MIN_BOX_AREA))]
-    dets.sort(key=lambda d: float(d.get("score", 0.0)), reverse=True)
+    dets.sort(key=lambda d: int(d.get("u", 0)), reverse=True)
 
     if state.shared.object_ready.is_set():
         if dets:
@@ -594,7 +594,7 @@ def main():
     app = GStreamerDetectionApp(app_callback, state)
     for sig in (signal.SIGINT, signal.SIGTERM):
         signal.signal(sig, _sig_handler)
-        
+
     t_detect = threading.Thread(target=app.run, daemon=True)
     t_detect.start()
 
@@ -621,11 +621,11 @@ def main():
     finally:
         print("[main] Shutting down threads...")
         SHUTDOWN.set()
-        
+
         # Give threads time to see SHUTDOWN and clean up
         print("[main] Waiting for belt thread...")
         t_belt.join(timeout=3.0)
-        
+
         # Force stop conveyor if thread didn't finish
         print("[main] Ensuring conveyor is stopped...")
         try:
@@ -633,7 +633,7 @@ def main():
             time.sleep(0.2)
         except Exception as e:
             print(f"[main] Error stopping conveyor: {e}")
-        
+
         print("[main] Stopping GStreamer pipeline...")
 
         try:
@@ -645,6 +645,7 @@ def main():
             print(f"[main] GStreamer stop error: {e}")
         _safe_shutdown_local()
         print("[main] Shutdown complete.")
+
 
 if __name__ == "__main__":
     main()
