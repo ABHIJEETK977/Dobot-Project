@@ -35,7 +35,7 @@ tray_approach_pos = [20, -267.9, 63.4]
 
 # Label → bin coordinates
 DEFAULT_DROP_Z = 45
-Drop_side = 'Left'
+Drop_side = 'Left' # 'Right' or 'Left' (relative to robot front); affects Y sign of all drop coords
 
 Drop_coord = [(-51,   -188.3),   # red apple
               (14,    -185.2),   # strawberry
@@ -424,7 +424,7 @@ def app_callback(pad, info, state: UserState):
 # =========================================================
 # Worker: executes robot motions OFF the streaming thread
 # =========================================================
-def pick_worker(shared: Shared):
+def  pick_worker(shared: Shared):
     while not SHUTDOWN.is_set():
         try:
             task = shared.pick_q.get(timeout=0.1)
