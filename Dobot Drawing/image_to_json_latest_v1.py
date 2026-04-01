@@ -15,7 +15,7 @@ class ImageToSmoothPath:
         # TUNING FOR V5
         stitch_threshold_mm=1.0,  # Strict stitching to prevent jumping across the face
         smoothing_factor=0.2,     # VERY LOW (0.2) to keep sharp details in eyes/mouth
-        sample_density_mm=0.5,    # High resolution
+        sample_density_mm=1.2,    # High resolution
         min_path_len_mm=2.0       # Keep small nose/eye details
     ):
         self.image_path = image_path
@@ -277,9 +277,9 @@ class ImageToSmoothPath:
 
 if __name__ == "__main__":
     converter = ImageToSmoothPath(
-        image_path="3d-printing-img.png",
+        image_path="images/AI/Generated/Promt2_AI_portrait.png",
         output_width=100.0,
-        output_height=100.0, 
+        output_height=100.0,
 
         # TUNING FOR V5
         stitch_threshold_mm=1.0,  # Strict stitching
