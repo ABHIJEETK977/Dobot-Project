@@ -24,13 +24,17 @@ How to Run
 #    source /home/dobot/Documents/Dobot/Ishan/better/venv_hailo_rpi_examples/bin/activate
 
 2) Run the script with:
-    cd ~/Robot-Manipulation/Dobot-Project/Fruit-Sorting
+export PIPER_MODEL="/home/dobotproject/voices/en_US-lessac-medium.onnx"
+export PIPER_ALSA_DEVICE="default"
 
-    ~/Robot-Manipulation/hailo-apps/venv_hailo_apps/bin/python \
-    Voice_controlled_fruit_sorting.py \
-    --hef-path ./fruit_dobot_v1.hef \
-    --input /dev/video0 \
-    --labels-json ./fruit_dobot_v1.json
+cd ~/Robot-Manipulation/Dobot-Project/Fruit-Sorting
+source ~/Robot-Manipulation/hailo-apps/setup_env.sh
+
+~/Robot-Manipulation/hailo-apps/venv_hailo_apps/bin/python \
+  Voice_controlled_fruit_sorting.py \
+  --hef-path ./fruit_dobot_v1.hef \
+  --input /dev/video0 \
+  --labels-json ./fruit_dobot_v1.json
 
 Key CLI Inputs
 --------------
@@ -129,44 +133,65 @@ class TTSWorker:
 
     # ---------------- Backend selection ----------------
     def _try_init_piper(self):
-        import shutil, os
+        import shutil, os, sys, subprocess
+
         piper_bin = shutil.which("piper")
         aplay_bin = shutil.which("aplay")
-        if not piper_bin or not aplay_bin:
-            raise RuntimeError("piper/aplay not in PATH")
+        if not aplay_bin:
+            raise RuntimeError("aplay not in PATH")
 
-        # Pick model: env var preferred, else try common locations
+        piper_cmd = None
+
+        if piper_bin:
+            piper_cmd = [piper_bin]
+        else:
+            # fallback: try python -m piper
+            try:
+                probe = subprocess.run(
+                    [sys.executable, "-m", "piper", "--help"],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    timeout=5,
+                )
+                if probe.returncode == 0:
+                    piper_cmd = [sys.executable, "-m", "piper"]
+            except Exception:
+                pass
+
+        if not piper_cmd:
+            raise RuntimeError("no usable Piper executable found")
+
         env_model = os.getenv("PIPER_MODEL", "").strip()
         candidates = [env_model] if env_model else []
         candidates += [
+            "/home/dobotproject/voices/en_US-lessac-medium.onnx",
+            "/home/dobotproject/voices/en_US/lessac/medium/en_US-lessac-medium.onnx",
+            "/home/dobotproject/voices/en_US-amy-medium.onnx",
+            "/home/dobotproject/voices/en_US/amy/medium/en_US-amy-medium.onnx",
             "/home/dobot/voices/en_US-lessac-medium.onnx",
             "/home/dobot/voices/en_US/lessac/medium/en_US-lessac-medium.onnx",
-            "/home/dobot/voices/en_US-amy-medium.onnx",
-            "/home/dobot/voices/en_US/amy/medium/en_US-amy-medium.onnx",
             "/home/pi/voices/en_US-lessac-medium.onnx",
             "/usr/share/piper/voices/en_US-lessac-medium.onnx",
         ]
         model_path = next((p for p in candidates if p and os.path.isfile(p)), None)
         if not model_path:
             raise RuntimeError("no Piper voice model (.onnx) found; set PIPER_MODEL env var")
-        print("[TTS DEBUG] piper_bin =", piper_bin)
-        print("[TTS DEBUG] aplay_bin =", aplay_bin)
-        print("[TTS DEBUG] PIPER_MODEL =", env_model)
-        print("[TTS DEBUG] chosen model_path =", model_path)
-        print("[TTS DEBUG] chosen model_path =", model_path)
 
-        # Optional tunables
         self._piper = {
-            "bin": piper_bin,
+            "cmd": piper_cmd,
             "aplay": aplay_bin,
             "model": model_path,
             "device": os.getenv("PIPER_ALSA_DEVICE", "default"),
-            "speaker": os.getenv("PIPER_SPEAKER", ""),  # numeric id or empty
-            "length_scale": float(os.getenv("PIPER_LENGTH", "0.75")),  # <1 faster, >1 slower
-            "noise_scale": float(os.getenv("PIPER_NOISE", "0.6")),    # 0..1
+            "speaker": os.getenv("PIPER_SPEAKER", ""),
+            "length_scale": float(os.getenv("PIPER_LENGTH", "0.75")),
+            "noise_scale": float(os.getenv("PIPER_NOISE", "0.6")),
             "noise_w": float(os.getenv("PIPER_NOISE_W", "0.8")),
-            "lead_ms": int(float(os.getenv("PIPER_LEAD_MS", "240"))),  # prepend this much silence to avoid clipped first word
+            "lead_ms": int(float(os.getenv("PIPER_LEAD_MS", "240"))),
         }
+        print("[TTS DEBUG] piper_cmd =", piper_cmd)
+        print("[TTS DEBUG] aplay_bin =", aplay_bin)
+        print("[TTS DEBUG] PIPER_MODEL =", env_model)
+        print("[TTS DEBUG] chosen model_path =", model_path)
         print(f"[TTS] Piper ready with model: {model_path}")
         return "piper"
 
@@ -234,7 +259,7 @@ class TTSWorker:
 
     # Piper: pipe TTS audio directly to aplay for low-latency playback
     def _piper_say(self, text: str):
-        import subprocess, tempfile, os, wave, audioop
+        import subprocess, tempfile, os, wave
 
         # Normalize text to a single line so we synthesize once per utterance
         normalized = " ".join(text.replace("\n", " ").split()).strip()
@@ -242,12 +267,16 @@ class TTSWorker:
             return
 
         p = self._piper
+        config_path = p["model"] + ".json"
         base_cmd = [
-            p["bin"], "-m", p["model"], "-f", "-",            # wav on stdout
+            *p["cmd"],
+            "-m", p["model"],
+            "-c", config_path,
+            "-f", "-",
             "--length_scale", str(p["length_scale"]),
             "--noise_scale", str(p["noise_scale"]),
             "--noise_w", str(p["noise_w"]),
-            "--sentence_silence", "0.0"                      # keep snappy between sentences
+            "--sentence_silence", "0.0"
         ]
         if str(p.get("speaker", "")).strip():
             base_cmd += ["-s", str(p["speaker"]).strip()]
@@ -281,9 +310,8 @@ class TTSWorker:
                 frames     = w.readframes(w.getnframes())
 
             if lead_ms > 0:
-                # create silence of desired duration with the same audio format
                 silent_len_frames = int(framerate * lead_ms / 1000.0)
-                silence = audioop.mul(b"\x00" * silent_len_frames * n_channels * sampwidth, sampwidth, 0)
+                silence = b"\x00" * (silent_len_frames * n_channels * sampwidth)
                 merged = silence + frames
             else:
                 merged = frames
@@ -349,7 +377,7 @@ H_FILE                  = "pixel_to_table_H.npy"
 CALIB_FRAME_W           = 640
 CALIB_FRAME_H           = 480
 MIRROR_X                = False
-UNDISTORT_BEFORE_H      = True
+UNDISTORT_BEFORE_H      = False
 
 MIC_ALSA_DEVICE  = "hw:2,0"
 

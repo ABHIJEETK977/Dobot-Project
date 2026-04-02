@@ -101,7 +101,7 @@ class GStreamerCamera:
 # ---------- Calibrator logic ----------
 def main():
     # Connect robot & home
-    HOME_POSE = (234.6, 13.5, 116.3) # X,Y,Z, rHead (adjust as needed)
+    HOME_POSE = (231.9, -8.7, 153.8) # X,Y,Z, rHead (adjust as needed)
     bot = Dbt.DoBotArm(HOME_POSE[0], HOME_POSE[1], HOME_POSE[2])
     print("Connected to DoBot. Homing...")
     bot.moveHome()
